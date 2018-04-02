@@ -20,6 +20,25 @@ R
 
 to start R and install XML library with this command:
 
-R CMD BATCH /users/mustafa_alpay/Desktop/html2R.R
+install.packages("XML")
+
+after XML package is installed 
+
+you can run html2R.R script with 
+
+Rscript /users/mustafa_alpay/Desktop/html2R.R
+
+and the output will be something like this:
+
+mustafas-iMac:~ mustafa_alpay$ Rscript /users/mustafa_alpay/Desktop/html2R.R
+Loading required package: methods
+$`NULL`
+      Name Item Name Item Price
+1    Alvin    Eclair      $0.87
+2     Alan Jellybean      $3.76
+3 Jonathan  Lollipop      $7.00
+4  Shannon    KitKat      $9.99
+
+That's all.
 
 
